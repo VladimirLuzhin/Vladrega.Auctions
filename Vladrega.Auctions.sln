@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vladrega.Auctions", "Vladrega.Auctions\Vladrega.Auctions.csproj", "{8C179D10-C2DF-4395-9A9E-902F23BA5A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vladrega.Auctions.Domain", "Vladrega.Auctions.Domain\Vladrega.Auctions.Domain.csproj", "{742DB898-5D79-402B-BFEC-5699677C2276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vladrega.Auctions.Application", "Vladrega.Auctions.Application\Vladrega.Auctions.Application.csproj", "{16A69371-8377-4A83-BB63-84FD0904A7E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vladrega.Auctions.Infrastructure", "Vladrega.Auctions.Infrastructure\Vladrega.Auctions.Infrastructure.csproj", "{90CB7CD6-24AC-4C09-93C8-68A325805278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vladrega.Auctions.Database", "Vladrega.Auctions.Database\Vladrega.Auctions.Database.csproj", "{563D2CF8-966F-471D-A040-A5BDF1B4E6C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C179D10-C2DF-4395-9A9E-902F23BA5A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C179D10-C2DF-4395-9A9E-902F23BA5A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C179D10-C2DF-4395-9A9E-902F23BA5A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C179D10-C2DF-4395-9A9E-902F23BA5A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742DB898-5D79-402B-BFEC-5699677C2276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742DB898-5D79-402B-BFEC-5699677C2276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742DB898-5D79-402B-BFEC-5699677C2276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742DB898-5D79-402B-BFEC-5699677C2276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A69371-8377-4A83-BB63-84FD0904A7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A69371-8377-4A83-BB63-84FD0904A7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A69371-8377-4A83-BB63-84FD0904A7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A69371-8377-4A83-BB63-84FD0904A7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CB7CD6-24AC-4C09-93C8-68A325805278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CB7CD6-24AC-4C09-93C8-68A325805278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CB7CD6-24AC-4C09-93C8-68A325805278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CB7CD6-24AC-4C09-93C8-68A325805278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563D2CF8-966F-471D-A040-A5BDF1B4E6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563D2CF8-966F-471D-A040-A5BDF1B4E6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563D2CF8-966F-471D-A040-A5BDF1B4E6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563D2CF8-966F-471D-A040-A5BDF1B4E6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

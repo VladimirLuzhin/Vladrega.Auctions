@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Lots" />
+      <Folder Include="User" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Vladrega.Auctions.Domain\Vladrega.Auctions.Domain.csproj" />
+      <ProjectReference Include="..\Vladrega.Auctions.Infrastructure\Vladrega.Auctions.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="11.0.0" />
+    </ItemGroup>
+
+</Project>
