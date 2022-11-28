@@ -8,17 +8,17 @@ public class Bet
     /// <summary>
     /// Идентификатор ставки
     /// </summary>
-    public int Id { get; init; }
+    public Guid Id { get; init; }
     
     /// <summary>
     /// Пользователь, слелавший ставку
     /// </summary>
-    public int AuthorId { get; init; }
+    public Guid AuthorId { get; init; }
     
     /// <summary>
     /// Идентификатор лота, по которому совершена ставка
     /// </summary>
-    public int LotId { get; init; }
+    public Guid LotId { get; init; }
     
     /// <summary>
     /// Размер ставки

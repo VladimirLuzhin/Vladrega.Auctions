@@ -1,20 +1,25 @@
 using System.Reflection;
 using MediatR;
-using Vladrega.Auctions.Application.Auctions.CreateAuction;
+using Vladrega.Auctions.Application;
 using Vladrega.Auctions.Application.Behaviours;
 using Vladrega.Auctions.Application.Mediator;
+using Vladrega.Auctions.Database.Auctions;
+using Vladrega.Auctions.Database.Bets;
+using Vladrega.Auctions.Database.Lots;
+using Vladrega.Auctions.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
 
 var assemblies = AppDomain.CurrentDomain.GetAssemblies();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(config => config.AsScoped(), assemblies);
+builder.Services.AddSingleton<IRepository<Auction>, InMemoryAuctionsRepository>();
+builder.Services.AddSingleton<IRepository<Lot>, InMemoryLotsRepository>();
+builder.Services.AddSingleton<IRepository<Bet>, InMemoryBetsRepository>();
+builder.Services.AddSingleton<UnitOfWork>();
 
 var openGenericType = typeof(IValidator<>);
 var types = assemblies

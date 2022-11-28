@@ -2,12 +2,12 @@
 using FluentResults;
 using MediatR;
 
-namespace Vladrega.Auctions.Application.Auctions.CreateAuction;
+namespace Vladrega.Auctions.Application.Auctions.Create;
 
 /// <summary>
 /// Команда на создание аукциона
 /// </summary>
-public record CreateActionCommand : IRequest<Result>
+public record CreateAuctionCommand : IRequest<Result>
 {
     /// <summary>
     /// Название аукциона

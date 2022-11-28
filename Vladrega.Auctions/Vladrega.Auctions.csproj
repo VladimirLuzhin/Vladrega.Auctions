@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Vladrega.Auctions.Application\Vladrega.Auctions.Application.csproj" />
+      <ProjectReference Include="..\Vladrega.Auctions.Database\Vladrega.Auctions.Database.csproj" />
     </ItemGroup>
 
 </Project>

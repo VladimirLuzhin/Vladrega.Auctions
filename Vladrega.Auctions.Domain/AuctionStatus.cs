@@ -28,5 +28,10 @@ public enum AuctionStatus
     /// <summary>
     /// Аукцион завершен
     /// </summary>
-    Complete = 4
+    Complete = 4,
+    
+    /// <summary>
+    /// Аукцион отменен
+    /// </summary>
+    Canceled = 5
 }
