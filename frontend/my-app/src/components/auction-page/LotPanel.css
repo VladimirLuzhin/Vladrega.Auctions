@@ -1,0 +1,19 @@
+.lot-panel {
+    background-color: rgb(23, 23, 23) !important;
+    /* width: 40em;
+    height: 14em; */
+}
+
+.lot-panel__body {
+    display: flex;
+    flex-direction: row;
+}
+
+.lot-panel:hover {
+    box-shadow: 1px 1px 4px 1px rgba(77, 171, 244, 0.2);
+}
+
+.lot-panel label {
+    font-weight: 700;
+}
+
